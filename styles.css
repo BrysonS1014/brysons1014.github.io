@@ -1,12 +1,40 @@
 body {
-    background-color:rgb(255,255,255);
+    background-color: rgb(255,255,255)
 }
 
 .name-text {
 
-    text-align: center
+    text-align: center;
+    color: blue;
+
 }
 
-.about-section {
+.about-header {
+
+    color: red;
+    font-family: "Arial", sans-serif;
+    font-style: italic
+    
+}
+
+.skills-header {
+
+    color: darkgreen;
+    font-family: "Georgia", sans-serif;
+    font-weight: 100;
+}
+
+.projects-header {
+
+    color: darkmagenta;
+    font-family: "Comic Sans Serif", sans-serif;
+    font-style: italic;
+
+}
+
+.contact-header {
+
+    color: darkgoldenrod;
+    font-size: medium;
 
 }
