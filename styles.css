@@ -5,36 +5,39 @@ body {
 .name-text {
 
     text-align: center;
-    color: blue;
+    color: rgb(0, 0, 0);
 
 }
 
 .about-header {
 
-    color: red;
-    font-family: "Arial", sans-serif;
-    font-style: italic
-    
+    color: rgb(0, 0, 0);
+    font-family: "Georgia", sans-serif;
+   
 }
 
 .skills-header {
 
-    color: darkgreen;
+    color: rgb(0, 0, 0);
     font-family: "Georgia", sans-serif;
-    font-weight: 100;
 }
 
 .projects-header {
 
-    color: darkmagenta;
-    font-family: "Comic Sans Serif", sans-serif;
-    font-style: italic;
+    color: rgb(0, 0, 0);
+    font-family: "Georgia", sans-serif;
 
 }
 
 .contact-header {
 
-    color: darkgoldenrod;
-    font-size: medium;
+    color: rgb(0, 0, 0);
+    font-family: "Georgia", sans-serif;
 
+}
+
+.problem-header {
+
+    color: rgb(0,0,0);
+    font-family: "Georgia", sans-serif;
 }
