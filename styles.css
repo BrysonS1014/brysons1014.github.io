@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(255,255,255)
+    background-color: rgb(255,255,255);
 }
 
 .name-text {
@@ -9,40 +9,139 @@ body {
 
 }
 
-.about-header {
-
-    color: rgb(0, 0, 0);
-    font-family: "Georgia", sans-serif;
-   
-}
-
-.skills-header {
-
-    color: rgb(0, 0, 0);
-    font-family: "Georgia", sans-serif;
-}
-
-.projects-header {
-
-    color: rgb(0, 0, 0);
-    font-family: "Georgia", sans-serif;
-
-}
-
+.about-header,
+.skills-header,
+.projects-header,
 .contact-header {
 
+    font-size: 20px;
     color: rgb(0, 0, 0);
-    font-family: "Georgia", sans-serif;
+}
+
+.about-text,
+.skills-text,
+.projects-text,
+.contact-text {
+    
+    font-size: 14px;
+    color: black rgb(0, 0, 0);
 
 }
 
-.problem-header {
+.name-text-resume {
+    font-size: 32px;
+    color: black rgb(0, 0, 0);
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: auto;
 
-    color: rgb(0,0,0);
-    font-family: "Georgia", sans-serif;
 }
-.sketches-header {
 
-    color: rgb(0,0,0);
-    font-family: "Georgia", sans-serif;
+.contact-resume-text {
+    font-size: 20px;
+    color: black rgb(0, 0, 0);
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: auto;
+
+
+}
+
+.education-header,
+.experience-header,
+.skills-resume-header {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black rgb(0, 0, 0);
+    text-decoration: underline;
+    margin: auto;
+}
+
+
+.experience-text,
+.skills-resume-text {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black rgb(0, 0, 0);
+    margin: auto;
+}
+
+ul, li {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black rgb(0, 0, 0);
+    margin: auto;
+}
+
+
+/* Below is created by AI */
+
+/* Assignments Grid Layout */
+.assignments {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    margin-top: 40px;
+}
+
+/* Assignment Section Styling */
+.problem-section,
+.affinity-section,
+.sketches-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    max-width: 80%;
+}
+
+.problem-section img,
+.affinity-section img,
+.sketches-section img {
+    max-width: 100%;
+    height: auto;
+    margin: 15px 0;
+}
+
+.assignments img {
+    display: block;       
+    width: 100%;          
+    max-width: 100%;
+    height: auto;         
+    object-fit: contain;  
+    margin: 15px 0;
+}
+
+#affinity {
+    text-align: center;
+    margin: auto;
+    width: 50%;
+}
+
+.edu-row {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    font-size: 18px; 
+    margin-bottom: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.edu-location,
+.edu-degree,
+.coursework-header {
+    font-size: 18px;
+    margin-bottom: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.coursework-list {
+    margin-top: 0;
+    margin-left: 20px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
 }
